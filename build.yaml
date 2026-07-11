@@ -11,6 +11,11 @@ include:
     cmake-args: -DEXTRA_CONF_FILE=../../config/prospector_scanner_touch.conf
     artifact-name: prospector_scanner_touch
 
+  # Scanner - Mono OLED (nice!nano v2 + 1.3" SH1106 128x64)
+  - board: nice_nano_v2
+    shield: prospector_scanner_oled
+    artifact-name: prospector_scanner_oled
+
   # Settings reset utility
   - board: xiao_ble/nrf52840/zmk
     shield: settings_reset

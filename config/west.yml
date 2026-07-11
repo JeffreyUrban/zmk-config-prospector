@@ -4,14 +4,16 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: prospector
       url-base: https://github.com/t-ogura
+    - name: jeffreyurban
+      url-base: https://github.com/JeffreyUrban
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: prospector-zmk-module
-      remote: prospector
-      revision: v2.2.1
+      remote: jeffreyurban
+      revision: feat/oled-scanner
       path: modules/prospector-zmk-module
   self:
     path: config
