@@ -13,7 +13,7 @@ manifest:
       import: app/west.yml
     - name: prospector-zmk-module
       remote: jeffreyurban
-      revision: main
+      revision: feat/oled-battery-gauges
       path: modules/prospector-zmk-module
   self:
     path: config
